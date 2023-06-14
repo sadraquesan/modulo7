@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: rgb(173, 203, 193);
+}
+.div_container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+    
+}
+/*configuração do formulario*/
+#id_form {
+   margin-top: 40px;
+   
+
+}
+
+
+input, button {
+    display: block;
+    padding: 10px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+    /*background-color: #339788;*/
+    
+}
+/*configuração do botao*/
+button {
+    background-color: #339788;
+    border: none;
+    text-transform: uppercase;
+    color: #161717;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+/*configuração da mesage*/
+.mensagem {
+    background-color:#339788;
+    padding: 10px;
+    color: #161717;
+    display: none;
+}
+/*configuração da mensagem 2*/
+.mensagem2 {
+    background-color: #339788;
+    padding: 10px;
+    color: #161717;
+    display: none;
+}
