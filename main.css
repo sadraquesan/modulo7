@@ -16,8 +16,11 @@ body {
 /*configuração do formulario*/
 #id_form {
    margin-top: 40px;
-   
+   color: black;
 
+}
+::placeholder{
+    color: black;
 }
 
 
@@ -29,6 +32,11 @@ input, button {
     resize: none;
     /*background-color: #339788;*/
     
+}
+
+#input_id1, #input_id2 {
+     background-color: #339788;
+     
 }
 /*configuração do botao*/
 button {
